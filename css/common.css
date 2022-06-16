@@ -18,14 +18,16 @@ text-contacts-color rgba(255, 255, 255, 0.6);
     --accente-color: #2196F3;
     --bg-primary-color: #E5E5E5;
     --bg-secondery-color: #F5F4FA;
+    --bg-black-color: #2F303A;
     --text-secondery-color: #212121;
     --text-primary-color: #757575;
     --text-contacts-color:  rgba(255, 255, 255, 0.6);
-}
+} 
 /* Text */
 body{
     background-color: var(--bg-primary-color);
     color: var(--text-primary-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondery-color); 
@@ -41,22 +43,23 @@ a:hover{
 .logo{
     color: #2196F3;
 }
+
 .logo:hover,
 .logo:focus{
     color: #000;
-}
+} 
 
 /* header*/
-.header{
+header{
     background: var(--white);
 }
-.header ul{
+header ul{
     list-style: none ;
 }
 
 /* Foother */
 footer{
-    background:#2F303A;       
+    background:var(--bg-black-color);       
     }
 
 /* Navigation */

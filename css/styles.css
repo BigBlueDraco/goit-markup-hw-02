@@ -1,0 +1,15 @@
+.buisnes-solution{
+    background: var(--bg-black-color);
+}
+.buisnes-solution-title{
+    color: var(--white);
+}
+.order-button{
+    background: var(--accente-color);
+    color: var(--white);
+}
+.order-button:focus,
+.order-button:hover{
+    background: var(--white);
+    color: var(--accente-color);
+}
