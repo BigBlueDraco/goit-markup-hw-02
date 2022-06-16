@@ -22,6 +22,7 @@ text-contacts-color rgba(255, 255, 255, 0.6);
     --text-primary-color: #757575;
     --text-contacts-color:  rgba(255, 255, 255, 0.6);
 }
+/* Text */
 body{
     background-color: var(--bg-primary-color);
     color: var(--text-primary-color);
@@ -29,10 +30,22 @@ body{
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondery-color); 
 }
+
+/* Links */
+a:focus,
+a:hover{
+    color: var(--accente-color);
+}
+
 /* logo */
 .logo{
     color: #2196F3;
 }
+.logo:hover,
+.logo:focus{
+    color: #000;
+}
+
 /* header*/
 .header{
     background: var(--white);
@@ -50,10 +63,7 @@ footer{
 .nav-link{
     color: var(--text-secondery-color); 
 }
-.nav-link:hover,
-.nav-link:focus{
-    color: var(--accente-color);
-}
+
 /* Contact links */
 .header .contact-link{
     color: var(--text-primary-color);
@@ -64,4 +74,7 @@ footer{
 .contact-link:hover,
 .contact-link:focus{
     color: var(--accente-color);
-} 
+}  
+.map-link{
+    color: var(--white);
+}
