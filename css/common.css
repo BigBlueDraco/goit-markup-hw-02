@@ -29,6 +29,10 @@ body{
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondery-color); 
 }
+/* logo */
+.logo{
+    color: #2196F3;
+}
 /* header*/
 .header{
     background: var(--white);
@@ -36,6 +40,12 @@ h1, h2, h3, h4, h5, h6 {
 .header ul{
     list-style: none ;
 }
+
+/* Foother */
+footer{
+    background:#2F303A;       
+    }
+
 /* Navigation */
 .nav-link{
     color: var(--text-secondery-color); 
@@ -54,8 +64,4 @@ h1, h2, h3, h4, h5, h6 {
 .contact-link:hover,
 .contact-link:focus{
     color: var(--accente-color);
-} */
-
-/* footer{
-background:#2F303A;       
-}
+} 
