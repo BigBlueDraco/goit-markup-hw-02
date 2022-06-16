@@ -1,0 +1,29 @@
+/* Maim colors
+
+white #FFFFFF;
+accente-color #2196F3; 
+
+--Background--
+bg-primary-color #E5E5E5;
+bg-secondery-color #F5F4FA; 
+
+--Text--
+text-secondery-color #212121;
+text-primary-color #757575;
+text-contacts-color rgba(255, 255, 255, 0.6);
+
+*/
+:root{
+    --bg-primary-color: #E5E5E5;
+    --bg-secondery-color: #F5F4FA;
+    --text-secondery-color: #212121;
+    --text-primary-color: #757575;
+    --text-contacts-color:  rgba(255, 255, 255, 0.6);
+}
+body{
+    background-color: var(--bg-primary-color);
+    color: var(--text-primary-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-secondery-color); 
+}
