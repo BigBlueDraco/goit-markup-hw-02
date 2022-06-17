@@ -125,3 +125,9 @@ header .contact-link{
 .buisnes-solution-title{
     color: var(--white);
 }
+
+/* portfolio.html */
+
+.catalog-link{
+    color: aqua;
+}
