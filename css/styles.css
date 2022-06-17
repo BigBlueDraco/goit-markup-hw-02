@@ -17,16 +17,16 @@ text-contacts-color rgba(255, 255, 255, 0.6);
 :root{
     --white: #FFFFFF;
     --accente-color: #2196F3;
-    --bg-bright-color: #F5F4FA;
-    --bg-dim-color:#E5E5E5 ;
+    --bg-bright-color: #FFFFFF;
+    --bg-dim-color:#F5F4FA ;
     --bg-primary-color: #2F303A;
     --text-secondery-color: #212121;
     --text-primary-color: #757575;
     --text-contacts-color:  rgba(255, 255, 255, 0.6);
 } 
 /* def ul-list */
-.ul-list{
-    list-style: none ;
+ul{
+    list-style: none;
 }
 /* Text */
 body{
@@ -79,6 +79,25 @@ header{
     color: var(--text-secondery-color); 
 }
 
+/* Buttons */
+.button{
+    background: var(--bg-bright-color);
+    color: var(--text-secondery-color);
+}
+.button:hover,
+.button:focus{
+    background:var(--accente-color);
+    color: var(--white);
+}
+.accente-button{
+    background: var(--accente-color);
+    color: var(--bg-bright-color);
+}
+.accente-button:focus,
+.accente-button:hover{
+    background: var(--bg-bright-color);
+    color: var(--accente-color);
+}
 
 /* index.html style */
 
@@ -97,15 +116,5 @@ header{
 }
 .buisnes-solution-title{
     color: var(--white);
-}
-/* Order Button */
-.order-button{
-    background: var(--accente-color);
-    color: var(--white);
-}
-.order-button:focus,
-.order-button:hover{
-    background: var(--white);
-    color: var(--accente-color);
 }
 
