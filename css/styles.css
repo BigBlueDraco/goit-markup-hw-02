@@ -162,6 +162,11 @@ header .contact-link{
 .order-button{
     font-weight: 700;
     line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 /* index.html style */
