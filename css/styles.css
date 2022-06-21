@@ -39,7 +39,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 /* header*/
@@ -70,6 +70,7 @@ h2{
 a{
     text-decoration: none;
     font-weight: inherit;
+    font-style: normal;
 }
 a:focus,
 a:hover{
@@ -204,7 +205,6 @@ header .contact-link{
 .team h3{
     font-size: 16px;
     line-height: 1.18;
-
     text-align: center;
 }
 
