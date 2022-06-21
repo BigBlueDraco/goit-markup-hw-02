@@ -218,3 +218,12 @@ header .contact-link{
     color: var(--bg-primary-color);
     text-decoration: underline;
 }
+.catalog{
+    font-size: 16px;
+    line-height: 1.88;
+}
+.catalog h3{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
