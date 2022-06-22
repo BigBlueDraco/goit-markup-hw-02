@@ -76,6 +76,12 @@ h2{
     line-height: 1.16;
     text-align: center;
 } */
+.section-title{
+color: var(--text-secondery-color); 
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
 
 /* Links */
 .link{
@@ -83,8 +89,8 @@ h2{
     font-weight: inherit;
     font-style: normal;
 }
-a:focus,
-a:hover{
+.link:focus,
+.link:hover{
     color: var(--accente-color);
 }
 
@@ -106,8 +112,19 @@ a:hover{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }  
+
 .map-link{
     color: var(--white);
+}
+
+.map-link:hover,
+.map-link:focus{
+    color: var(--white);
+}
+
+.footer .contact-link:hover,
+.footer .contact-link:focus{
+    color: var(--text-contacts-color);
 }
 /* Navigation */
 .nav-link{
@@ -203,7 +220,8 @@ a:hover{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.why-us h3{
+.why-us-title{
+    color: var(--text-secondery-color);
     font-size: 14;
     text-transform: uppercase;
     text-align: center;
@@ -213,11 +231,9 @@ a:hover{
     line-height: 1.18;
     text-align: center;
 }
-.team h3{
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-}
+.team-title{
+    color: var(--text-secondery-color);
+} 
 
 /* portfolio.html */
 
@@ -228,6 +244,10 @@ a:hover{
 .catalog-link:hover{
     color: var(--bg-primary-color);
     text-decoration: underline;
+}
+.curent-filter{
+    background: var(--accente-color);
+    color: var(--bg-bright-color);
 }
 .catalog{
     font-size: 16px;
