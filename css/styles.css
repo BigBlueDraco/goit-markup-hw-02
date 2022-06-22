@@ -62,22 +62,8 @@ body{
 }
 
 /* Text */
-/* h1, h2, h3, h4, h5, h6 {
-    color: var(--text-secondery-color); 
-    font-weight: 700;
-    line-height: 1.15;
-}
-h1{
-    font-weight: 900;
-    line-height: 1,36;
-}
-h2{
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-} */
 .section-title{
-color: var(--text-secondery-color); 
+    color: var(--text-secondery-color); 
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -108,7 +94,6 @@ color: var(--text-secondery-color);
 .header-contact-link{
     color: var(--text-primary-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }  
@@ -122,15 +107,10 @@ color: var(--text-secondery-color);
     color: var(--white);
 }
 
-.footer .contact-link:hover,
-.footer .contact-link:focus{
-    color: var(--text-contacts-color);
-}
 /* Navigation */
 .nav-link{
     color: var(--text-secondery-color); 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -222,17 +202,20 @@ color: var(--text-secondery-color);
 }
 .why-us-title{
     color: var(--text-secondery-color);
-    font-size: 14;
+    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
 }
-.team{
+.team-disc{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
 .team-title{
     color: var(--text-secondery-color);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 } 
 
 /* portfolio.html */
@@ -249,11 +232,11 @@ color: var(--text-secondery-color);
     background: var(--accente-color);
     color: var(--bg-bright-color);
 }
-.catalog{
+.catalog-type{
     font-size: 16px;
     line-height: 1.88;
 }
-.catalog-tittle{
+.catalog-title{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
