@@ -42,13 +42,23 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-/* header*/
-header{
-    background: var(--white);
-}
+
 /* footer */
-footer{
+.footer{
     background: var(--bg-primary-color);
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* Text */
@@ -66,8 +76,9 @@ h2{
     line-height: 1.16;
     text-align: center;
 }
+
 /* Links */
-a{
+.link{
     text-decoration: none;
     font-weight: inherit;
     font-style: normal;
@@ -78,13 +89,6 @@ a:hover{
 }
 
 /* Contact links */
-header .contact-link{
-    color: var(--text-primary-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
 .contact-link{
     color: var(--text-contacts-color);
     font-size: 14px;
@@ -94,6 +98,13 @@ header .contact-link{
 .contact-link:hover,
 .contact-link:focus{
     color: var(--accente-color);
+}
+.header-contact-link{
+    color: var(--text-primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }  
 .map-link{
     color: var(--white);
